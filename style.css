@@ -411,7 +411,7 @@ footer{
 
 /* responsiveness code  */
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .sub-first-section {
         width: 96%;
         height: 32vh;
