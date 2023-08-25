@@ -411,7 +411,7 @@ footer{
 
 /* responsiveness code  */
 
-@media (max-width:500px) {
+@media (max-width:500px ) and (min-width:380px) {
     .sub-first-section {
         width: 96%;
         height: 32vh;
@@ -522,4 +522,30 @@ footer{
 .sixth-section .form-box input {
     width: 258px
 }
+
+
+
+
 }
+
+
+
+@media (max-width:380px ) and (min-width:100px)
+
+{
+    
+.fifth-section .skills-box {
+    margin: 5px;
+}
+
+
+.sixth-section .form-box input {
+    width: 248px;
+    margin: 0px 8px;
+}
+
+.sixth-section .form-box textarea {
+margin: 20px 32px;
+}
+}
+
